@@ -444,17 +444,22 @@ a{
     text-align: center;
     cursor: pointer;
     position: relative;
+    background: linear-gradient(180deg, rgba(0, 40, 25, 0.55), rgba(0, 0, 0, 0.65));
+    border: 1px solid rgba(0, 255, 153, 0.25);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .dino-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 0 20px rgba(0, 255, 153, 0.35);
+    border-color: rgba(0, 255, 153, 0.6);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5), 0 0 22px rgba(0, 255, 153, 0.35);
 }
 
 .shop-tag {
     align-self: flex-start;
-    background: rgba(0, 255, 153, 0.12);
-    border: 1px solid rgba(0, 255, 153, 0.4);
+    background: rgba(0, 255, 153, 0.15);
+    border: 1px solid rgba(0, 255, 153, 0.5);
     color: #00ff99;
     font-size: 11px;
     font-weight: bold;
@@ -463,30 +468,52 @@ a{
     border-radius: 20px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    text-shadow: 0 0 8px rgba(0, 255, 153, 0.5);
 }
 
 .dino-card img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: contain;
-    background: #e9e2cf;
-    padding: 6px;
+    background: radial-gradient(circle at 50% 40%, rgba(0, 255, 153, 0.1), rgba(0, 0, 0, 0.35) 75%);
+    padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
     border: 1px solid rgba(0, 255, 153, 0.2);
-    margin-bottom: 12px;
+    margin-bottom: 14px;
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.5));
 }
 
 .dino-card h3 {
     margin: 0 0 14px;
     font-size: 16px;
     letter-spacing: 0.5px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.dino-card h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00ff99, transparent);
 }
 
 .dino-card .btn {
     margin-top: auto;
     width: 100%;
     box-sizing: border-box;
+    background: linear-gradient(180deg, #00ff99, #00cc7a);
+    box-shadow: 0 4px 12px rgba(0, 255, 153, 0.25);
+}
+
+.dino-card .btn:hover {
+    background: linear-gradient(180deg, #33ffb0, #00ff99);
 }
 
 /* TIENDA - PANEL DE DETALLE */
@@ -520,12 +547,13 @@ a{
     width: 140px;
     height: 140px;
     object-fit: contain;
-    background: #e9e2cf;
-    padding: 8px;
+    background: radial-gradient(circle at 50% 40%, rgba(0, 255, 153, 0.1), rgba(0, 0, 0, 0.35) 75%);
+    padding: 10px;
     box-sizing: border-box;
     border-radius: 12px;
     border: 1px solid rgba(0, 255, 153, 0.3);
     flex-shrink: 0;
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.5));
 }
 
 .detail-header h2 {

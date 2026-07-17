@@ -475,8 +475,8 @@ a{
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: contain;
-    background: radial-gradient(circle at 50% 40%, rgba(0, 255, 153, 0.1), rgba(0, 0, 0, 0.35) 75%);
-    padding: 10px;
+    background: #e9e2cf;
+    padding: 6px;
     box-sizing: border-box;
     border-radius: 10px;
     border: 1px solid rgba(0, 255, 153, 0.2);
@@ -547,8 +547,8 @@ a{
     width: 140px;
     height: 140px;
     object-fit: contain;
-    background: radial-gradient(circle at 50% 40%, rgba(0, 255, 153, 0.1), rgba(0, 0, 0, 0.35) 75%);
-    padding: 10px;
+    background: #e9e2cf;
+    padding: 8px;
     box-sizing: border-box;
     border-radius: 12px;
     border: 1px solid rgba(0, 255, 153, 0.3);

@@ -27,7 +27,7 @@
         "Basilosaurus": "images/dinos/basilosaurus.png",
         "Fasolasuchus": "images/dinos/fasolasuchus.png",
         "Thylacoleo": "images/dinos/thylacoleo.png",
-        "Pyromane": "images/dinos/pyromane.jpg",
+        "Pyromane": "images/dinos/pyromane.png",
         "Dreadmare": "images/dinos/dreadmare.png",
         "Wyvern": "images/dinos/wyvern.png",
         "Allosaurus": "images/dinos/allosaurus.png",

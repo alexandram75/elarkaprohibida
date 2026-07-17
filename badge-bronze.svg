@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="gradBronze" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#e8a768"/>
+      <stop offset="100%" stop-color="#8a5322"/>
+    </radialGradient>
+  </defs>
+  <polygon points="42,4 52,4 60,16 68,4 78,4 70,22 50,22" fill="#8a5322"/>
+  <circle cx="60" cy="60" r="48" fill="url(#gradBronze)" stroke="#5c3714" stroke-width="5"/>
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#e8a768" stroke-width="1.5" stroke-dasharray="3 4" opacity="0.6"/>
+  <ellipse cx="45" cy="38" rx="16" ry="9" fill="white" opacity="0.2"/>
+  <polygon points="60,38 65.29,52.72 80.92,53.20 68.56,62.78 72.93,77.80 60,69 47.07,77.80 51.44,62.78 39.08,53.20 54.71,52.72"
+            fill="#f0c48c" stroke="#5c3714" stroke-width="1.5"/>
+</svg>

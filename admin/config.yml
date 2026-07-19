@@ -1,0 +1,132 @@
+backend:
+  name: github
+  repo: alexandram75/elarkaprohibida
+  branch: master
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "dinos"
+    label: "Tienda de Dinos"
+    files:
+      - file: "data/dinos.json"
+        name: "dinos"
+        label: "Dinos (Tienda normal)"
+        fields:
+          - {label: "Extra por variante Aberrante", name: "aberranteExtra", widget: "number", value_type: "int"}
+          - label: "Dinos"
+            name: "dinos"
+            widget: "list"
+            summary: "{{fields.name}} ({{fields.category}})"
+            fields:
+              - {label: "Nombre", name: "name", widget: "string"}
+              - label: "Categoría"
+                name: "category"
+                widget: "select"
+                options: ["Categoría 1", "Categoría 2", "Categoría 3", "Categoría 4"]
+              - {label: "Precio Nivel 300", name: "price300", widget: "number", value_type: "int"}
+              - {label: "Precio Nivel 450", name: "price450", widget: "number", value_type: "int"}
+              - {label: "¿Tiene variante Aberrante?", name: "aberrant", widget: "boolean", default: false}
+              - {label: "Imagen", name: "image", widget: "image", required: false}
+
+  - name: "exclusivos"
+    label: "Dinos Exclusivos"
+    files:
+      - file: "data/exclusivos.json"
+        name: "exclusivos"
+        label: "Dinos Exclusivos"
+        fields:
+          - label: "Dinos"
+            name: "dinos"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - {label: "Nombre", name: "name", widget: "string"}
+              - {label: "Imagen", name: "image", widget: "image", required: false}
+              - label: "Variantes"
+                name: "variants"
+                widget: "list"
+                summary: "{{fields.label}} - {{fields.price}}"
+                fields:
+                  - {label: "Nombre de la variante", name: "label", widget: "string"}
+                  - {label: "Precio", name: "price", widget: "number", value_type: "int"}
+
+  - name: "homepage"
+    label: "Página de Inicio"
+    files:
+      - file: "data/homepage.json"
+        name: "homepage"
+        label: "Inicio"
+        fields:
+          - {label: "Título de bienvenida", name: "welcomeTitle", widget: "string"}
+          - {label: "Párrafos de bienvenida", name: "welcomeText", widget: "list"}
+          - {label: "Características", name: "features", widget: "list"}
+          - label: "Mapas disponibles"
+            name: "maps"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - {label: "Nombre", name: "name", widget: "string"}
+              - {label: "Imagen", name: "image", widget: "image"}
+          - label: "Mods destacados"
+            name: "mods"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - {label: "Nombre", name: "name", widget: "string"}
+              - {label: "URL del ícono", name: "icon", widget: "string"}
+
+  - name: "normas"
+    label: "Normas"
+    files:
+      - file: "data/normas.json"
+        name: "normas"
+        label: "Normas del servidor"
+        fields:
+          - label: "Secciones"
+            name: "sections"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Reglas", name: "items", widget: "list"}
+
+  - name: "donaciones"
+    label: "Donaciones"
+    files:
+      - file: "data/donaciones.json"
+        name: "donaciones"
+        label: "Packs de donación"
+        fields:
+          - {label: "Link de PayPal", name: "paypalLink", widget: "string"}
+          - label: "Packs"
+            name: "packs"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "ID interno (bronze/silver/gold)", name: "tier", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto del botón de compra", name: "buyLabel", widget: "string"}
+              - {label: "Puntos (texto)", name: "points", widget: "string"}
+              - {label: "Precio (texto)", name: "price", widget: "string"}
+              - {label: "Insignia", name: "badge", widget: "image"}
+              - {label: "Destacado", name: "featured", widget: "boolean", default: false}
+          - {label: "Pasos de entrega", name: "steps", widget: "list"}
+
+  - name: "site"
+    label: "Ajustes generales"
+    files:
+      - file: "data/site.json"
+        name: "site"
+        label: "Discord y ajustes globales"
+        fields:
+          - {label: "Link de invitación a Discord", name: "discordInvite", widget: "string"}
+          - label: "Página de Discord"
+            name: "discordPage"
+            widget: "object"
+            fields:
+              - {label: "Texto de comunidad", name: "communityText", widget: "string"}
+              - {label: "Texto de acceso", name: "accessText", widget: "string"}

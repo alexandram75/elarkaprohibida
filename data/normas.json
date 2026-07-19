@@ -1,0 +1,46 @@
+{
+    "sections": [
+        {
+            "title": "🤝 Respeto",
+            "items": [
+                "No insultos, racismo ni toxicidad.",
+                "Respeta al staff y a los jugadores."
+            ]
+        },
+        {
+            "title": "🚫 Prohibiciones",
+            "items": [
+                "No hacks ni exploits.",
+                "No spam ni publicidad.",
+                "No contenido NSFW o ilegal."
+            ]
+        },
+        {
+            "title": "🧬 Tribu",
+            "items": [
+                "Máx. 6 jugadores por tribu.",
+                "Registro obligatorio en Discord."
+            ]
+        },
+        {
+            "title": "🦖 Dinos",
+            "items": [
+                "Máx. 30 dinos fuera de base estando desconectado.",
+                "No abuso de criaturas ni abandono."
+            ]
+        },
+        {
+            "title": "🏗️ Construcción",
+            "items": [
+                "Máx. 1 base por tribu.",
+                "Prohibido construir en zonas importantes."
+            ]
+        },
+        {
+            "title": "⚠️ Sanciones",
+            "items": [
+                "Advertencias, mutes, wipes o baneo según gravedad."
+            ]
+        }
+    ]
+}

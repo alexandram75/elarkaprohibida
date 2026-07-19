@@ -1,0 +1,797 @@
+{
+  "aberranteExtra": 5000,
+  "dinos": [
+    {
+      "name": "Carcharodontosaurio",
+      "category": "Categoría 1",
+      "price300": 50000,
+      "price450": 65000,
+      "aberrant": false,
+      "image": "images/dinos/carcharodontosaurio.png"
+    },
+    {
+      "name": "Giganotosaurus",
+      "category": "Categoría 1",
+      "price300": 50000,
+      "price450": 65000,
+      "aberrant": false,
+      "image": "images/dinos/giganotosaurus.png"
+    },
+    {
+      "name": "Ossidón",
+      "category": "Categoría 1",
+      "price300": 50000,
+      "price450": 65000,
+      "aberrant": false,
+      "image": "images/dinos/ossidon.png"
+    },
+    {
+      "name": "Dreadnoughtus",
+      "category": "Categoría 1",
+      "price300": 50000,
+      "price450": 65000,
+      "aberrant": false,
+      "image": "images/dinos/dreadnoughtus.png"
+    },
+    {
+      "name": "Rock Golem",
+      "category": "Categoría 1",
+      "price300": 30154,
+      "price450": 39200,
+      "aberrant": false,
+      "image": "images/dinos/rock-golem.png"
+    },
+    {
+      "name": "Deinosuchus",
+      "category": "Categoría 1",
+      "price300": 30154,
+      "price450": 39200,
+      "aberrant": false,
+      "image": "images/dinos/deinosuchus.png"
+    },
+    {
+      "name": "Shastasaurus",
+      "category": "Categoría 1",
+      "price300": 30154,
+      "price450": 39200,
+      "aberrant": false,
+      "image": "images/dinos/shastasaurus.png"
+    },
+    {
+      "name": "Oasisaur",
+      "category": "Categoría 1",
+      "price300": 20231,
+      "price450": 26300,
+      "aberrant": false,
+      "image": "https://ark.wiki.gg/images/thumb/Oasisaur.png/320px-Oasisaur.png"
+    },
+    {
+      "name": "Rhyniognatha",
+      "category": "Categoría 2",
+      "price300": 35731,
+      "price450": 46450,
+      "aberrant": false,
+      "image": "images/dinos/rhyniognatha.png"
+    },
+    {
+      "name": "Mosasaurus",
+      "category": "Categoría 2",
+      "price300": 35731,
+      "price450": 46450,
+      "aberrant": false,
+      "image": "images/dinos/mosasaurus.png"
+    },
+    {
+      "name": "Tusoteuthis",
+      "category": "Categoría 2",
+      "price300": 35731,
+      "price450": 46450,
+      "aberrant": false,
+      "image": "images/dinos/tusoteuthis.png"
+    },
+    {
+      "name": "Rex",
+      "category": "Categoría 2",
+      "price300": 31732,
+      "price450": 41252,
+      "aberrant": false,
+      "image": "images/dinos/rex.png"
+    },
+    {
+      "name": "Spinosaur",
+      "category": "Categoría 2",
+      "price300": 31732,
+      "price450": 41252,
+      "aberrant": true,
+      "image": "images/dinos/spinosaur.png"
+    },
+    {
+      "name": "Yutyrannus",
+      "category": "Categoría 2",
+      "price300": 31732,
+      "price450": 41252,
+      "aberrant": false,
+      "image": "images/dinos/yutyrannus.png"
+    },
+    {
+      "name": "Therizinosaurus",
+      "category": "Categoría 2",
+      "price300": 31732,
+      "price450": 41252,
+      "aberrant": false,
+      "image": "images/dinos/therizinosaurus.png"
+    },
+    {
+      "name": "Brontosaurus",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": false,
+      "image": "images/dinos/brontosaurus.png"
+    },
+    {
+      "name": "Diplodocus",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": true,
+      "image": "images/dinos/diplodocus.png"
+    },
+    {
+      "name": "Paraceratherium",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": true,
+      "image": "images/dinos/paraceratherium.png"
+    },
+    {
+      "name": "Quetzal",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": false,
+      "image": "images/dinos/quetzal.png"
+    },
+    {
+      "name": "Grifo",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": false,
+      "image": "images/dinos/grifo.png"
+    },
+    {
+      "name": "Plesiosaur",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": false,
+      "image": "images/dinos/plesiosaur.png"
+    },
+    {
+      "name": "Basilosaurus",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": false,
+      "image": "images/dinos/basilosaurus.png"
+    },
+    {
+      "name": "Fasolasuchus",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": true,
+      "image": "images/dinos/fasolasuchus.png"
+    },
+    {
+      "name": "Thylacoleo",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": false,
+      "image": "images/dinos/thylacoleo.png"
+    },
+    {
+      "name": "Pyromane",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": false,
+      "image": "images/dinos/pyromane.png"
+    },
+    {
+      "name": "Dreadmare",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": false,
+      "image": "images/dinos/dreadmare.png"
+    },
+    {
+      "name": "Wyvern",
+      "category": "Categoría 2",
+      "price300": 25808,
+      "price450": 33550,
+      "aberrant": false,
+      "image": "images/dinos/wyvern.png"
+    },
+    {
+      "name": "Allosaurus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/allosaurus.png"
+    },
+    {
+      "name": "Carnotaurus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/carnotaurus.png"
+    },
+    {
+      "name": "Stegosaurus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/stegosaurus.png"
+    },
+    {
+      "name": "Triceratops",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/triceratops.png"
+    },
+    {
+      "name": "Pachyrhinosaurus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/pachyrhinosaurus.png"
+    },
+    {
+      "name": "Mammoth",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/mammoth.png"
+    },
+    {
+      "name": "Woolly Rhino",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/woolly-rhino.png"
+    },
+    {
+      "name": "Dire Bear",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/dire-bear.png"
+    },
+    {
+      "name": "Megatherium",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/megatherium.png"
+    },
+    {
+      "name": "Megalosaurus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/megalosaurus.png"
+    },
+    {
+      "name": "Baryonyx",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/baryonyx.png"
+    },
+    {
+      "name": "Sarcosuchus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/sarcosuchus.png"
+    },
+    {
+      "name": "Kaprosuchus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/kaprosuchus.png"
+    },
+    {
+      "name": "Ankylosaurus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/ankylosaurus.png"
+    },
+    {
+      "name": "Doedicurus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/doedicurus.png"
+    },
+    {
+      "name": "Castoroides",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/castoroides.png"
+    },
+    {
+      "name": "Argentavis",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/argentavis.png"
+    },
+    {
+      "name": "Gigantoraptor",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/gigantoraptor.png"
+    },
+    {
+      "name": "Yi Ling",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/yi-ling.png"
+    },
+    {
+      "name": "Mantis",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/mantis.png"
+    },
+    {
+      "name": "Thorny Dragon",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/thorny-dragon.png"
+    },
+    {
+      "name": "Morellatops",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/morellatops.png"
+    },
+    {
+      "name": "Megalodon",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/megalodon.png"
+    },
+    {
+      "name": "Dunkleosteus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/dunkleosteus.png"
+    },
+    {
+      "name": "Chalicotherium",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": false,
+      "image": "images/dinos/chalicotherium.png"
+    },
+    {
+      "name": "Gigantopithecus",
+      "category": "Categoría 3",
+      "price300": 17845,
+      "price450": 23199,
+      "aberrant": true,
+      "image": "images/dinos/gigantopithecus.png"
+    },
+    {
+      "name": "Raptor",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/raptor.png"
+    },
+    {
+      "name": "Iguanodon",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/iguanodon.png"
+    },
+    {
+      "name": "Parasaur",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/parasaur.png"
+    },
+    {
+      "name": "Gallimimus",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/gallimimus.png"
+    },
+    {
+      "name": "Equus",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/equus.png"
+    },
+    {
+      "name": "Procoptodon",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/procoptodon.png"
+    },
+    {
+      "name": "Direwolf",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/direwolf.png"
+    },
+    {
+      "name": "Sabertooth",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/sabertooth.png"
+    },
+    {
+      "name": "Beelzebufo",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/beelzebufo.png"
+    },
+    {
+      "name": "Carbonemys",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/carbonemys.png"
+    },
+    {
+      "name": "Kentrosaurus",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/kentrosaurus.png"
+    },
+    {
+      "name": "Pteranodon",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/pteranodon.png"
+    },
+    {
+      "name": "Pelagornis",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/pelagornis.png"
+    },
+    {
+      "name": "Terror Bird",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/terror-bird.png"
+    },
+    {
+      "name": "Lymantria",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/lymantria.png"
+    },
+    {
+      "name": "Titanoboa",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/titanoboa.png"
+    },
+    {
+      "name": "Araneo",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/araneo.png"
+    },
+    {
+      "name": "Pulmonoscorpius",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/pulmonoscorpius.png"
+    },
+    {
+      "name": "Arthropluera",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/arthropluera.png"
+    },
+    {
+      "name": "Onyc",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/onyc.png"
+    },
+    {
+      "name": "Purlovia",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/purlovia.png"
+    },
+    {
+      "name": "Megalania",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/megalania.png"
+    },
+    {
+      "name": "Megaloceros",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/megaloceros.png"
+    },
+    {
+      "name": "Phiomia",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/phiomia.png"
+    },
+    {
+      "name": "Moschops",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/moschops.png"
+    },
+    {
+      "name": "Lystrosaurus",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/lystrosaurus.png"
+    },
+    {
+      "name": "Ovis",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/ovis.png"
+    },
+    {
+      "name": "Achatina",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/achatina.png"
+    },
+    {
+      "name": "Oviraptor",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/oviraptor.png"
+    },
+    {
+      "name": "Pachy",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/pachy.png"
+    },
+    {
+      "name": "Hyaenodon",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/hyaenodon.png"
+    },
+    {
+      "name": "Troodon",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/troodon.png"
+    },
+    {
+      "name": "Mesopithecus",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/mesopithecus.png"
+    },
+    {
+      "name": "Pegomastax",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/pegomastax.png"
+    },
+    {
+      "name": "Microraptor",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/microraptor.png"
+    },
+    {
+      "name": "Compsognathus",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/compsognathus.png"
+    },
+    {
+      "name": "Dimetrodon",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/dimetrodon.png"
+    },
+    {
+      "name": "Dilophosaurus",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/dilophosaurus.png"
+    },
+    {
+      "name": "Dimorphodon",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/dimorphodon.png"
+    },
+    {
+      "name": "Archaeopteryx",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/archaeopteryx.png"
+    },
+    {
+      "name": "Ichthyornis",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/ichthyornis.png"
+    },
+    {
+      "name": "Vulture",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/vulture.png"
+    },
+    {
+      "name": "Jerboa",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/jerboa.png"
+    },
+    {
+      "name": "Manta",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/manta.png"
+    },
+    {
+      "name": "Ichthyosaurus",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": false,
+      "image": "images/dinos/ichthyosaurus.png"
+    },
+    {
+      "name": "Electrophorus",
+      "category": "Categoría 4",
+      "price300": 9923,
+      "price450": 12900,
+      "aberrant": true,
+      "image": "images/dinos/electrophorus.png"
+    }
+  ]
+}

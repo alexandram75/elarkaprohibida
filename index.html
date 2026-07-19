@@ -29,9 +29,8 @@
 <div class="container">
 
 <div class="box">
-    <h2>🦖 Bienvenido a ARKA PROHIBIDA🌋​</h2>
-    <p>Servidor PvE con una comunidad activa y administración comprometida.</p>
-    <p>Explora, construye, cría y disfruta de una experiencia equilibrada junto a otros supervivientes.</p>
+    <h2 id="welcomeTitle"></h2>
+    <div id="welcomeText"></div>
 </div>
 
 <div class="content-row">
@@ -39,74 +38,19 @@
     <div class="box maps-box">
         <h2>🗺️ Mapas Disponibles</h2>
 
-        <div class="maps-grid">
-
-            <div class="map-card">
-                <img src="images/the-island.png" alt="The Island">
-            </div>
-
-            <div class="map-card">
-                <img src="images/ragnarok.png" alt="Ragnarok">
-            </div>
-
-            <div class="map-card">
-                <img src="images/astraeos.png" alt="Astraeos">
-            </div>
-
-            <div class="map-card">
-                <img src="images/valguero.png" alt="Valguero">
-            </div>
-
-            <div class="map-card">
-                <img src="images/the-center.png" alt="The Center">
-            </div>
-
-            <div class="map-card">
-                <img src="images/genesis-1.png" alt="Genesis 1">
-            </div>
-
-            <div class="map-card">
-                <img src="images/aberration.png" alt="Aberration">
-            </div>
-
-        </div>
+        <div class="maps-grid" id="mapsGrid"></div>
     </div>
 
     <div class="side-column">
 
         <div class="box">
             <h2>⭐ Características</h2>
-            <p>✔ 150 puntos por cada hora jugada</p>
-            <p>✔ Tienda de dinos</p>
-            <p>✔ Eventos especiales</p>
-            <p>✔ Administración muy activa</p>
-            <p>✔ Máximo 6 jugadores por tribu</p>
+            <div id="featuresList"></div>
         </div>
 
         <div class="box">
             <h2>🔧 Mods Destacados</h2>
-            <div class="mod-list">
-                <div class="mod-item">
-                    <img src="https://83374.media.forgecdn.net/avatars/thumbnails/1866/964/64/64/639171341039507508.png" alt="Cyber's Structures">
-                    <span>Cyber's Structures</span>
-                </div>
-                <div class="mod-item">
-                    <img src="https://83374.media.forgecdn.net/avatars/thumbnails/904/667/64/64/638355047673327098.png" alt="Super Spyglass Plus">
-                    <span>Super Spyglass Plus</span>
-                </div>
-                <div class="mod-item">
-                    <img src="https://83374.media.forgecdn.net/avatars/thumbnails/1727/148/64/64/639098918007454733.png" alt="Mega Ark Shop Mod">
-                    <span>Mega Ark Shop Mod</span>
-                </div>
-                <div class="mod-item">
-                    <img src="https://83374.media.forgecdn.net/avatars/thumbnails/1767/449/64/64/639123291743513536.png" alt="Paleo Ark Evolution">
-                    <span>Paleo Ark Evolution</span>
-                </div>
-                <div class="mod-item">
-                    <img src="https://83374.media.forgecdn.net/avatars/thumbnails/895/831/64/64/638340791557646005.png" alt="Shiny Dinos Ascended">
-                    <span>Shiny Dinos Ascended</span>
-                </div>
-            </div>
+            <div class="mod-list" id="modList"></div>
         </div>
 
     </div>
@@ -116,10 +60,12 @@
 <div class="discord-float">
     <h2>💬 Discord</h2>
     <p class="discord-stats" id="discordStats">👥 Cargando...</p>
-    <img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://discord.com/invite/K9KZwputpZ" alt="Código QR del Discord">
-    <a class="btn discord-btn" href="https://discord.com/invite/K9KZwputpZ" target="_blank">🟦 UNIRSE</a>
+    <img class="qr-code" data-discord-qr alt="Código QR del Discord">
+    <a class="btn discord-btn" data-discord-href target="_blank">🟦 UNIRSE</a>
 </div>
 
+<script src="site.js"></script>
+<script src="home.js"></script>
 <script src="script.js"></script>
 
 

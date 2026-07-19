@@ -1,0 +1,39 @@
+{
+    "paypalLink": "https://paypal.me/arkaprohibida",
+    "packs": [
+        {
+            "tier": "bronze",
+            "title": "PACK BRONCE",
+            "buyLabel": "Comprar Pack Bronce",
+            "points": "🎯 50.000 Puntos",
+            "price": "19,99 €",
+            "badge": "images/badge-bronze.svg",
+            "featured": false
+        },
+        {
+            "tier": "silver",
+            "title": "PACK PLATA",
+            "buyLabel": "Comprar Pack Plata",
+            "points": "🎯 85.000 Puntos",
+            "price": "34,99 €",
+            "badge": "images/badge-silver.svg",
+            "featured": true
+        },
+        {
+            "tier": "gold",
+            "title": "PACK ORO",
+            "buyLabel": "Comprar Pack Oro",
+            "points": "🎯 130.000 Puntos",
+            "price": "49,99 €",
+            "badge": "images/badge-gold.svg",
+            "featured": false
+        }
+    ],
+    "steps": [
+        "1. Realiza el pago en PayPal",
+        "2. Entra a nuestro Discord",
+        "3. Abre un ticket en <b>#tickets-donaciones</b>",
+        "4. Envía prueba de pago (captura o ID de transacción)",
+        "5. El staff te dará tus puntos en el juego"
+    ]
+}

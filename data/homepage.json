@@ -1,0 +1,30 @@
+{
+    "welcomeTitle": "🦖 Bienvenido a ARKA PROHIBIDA🌋​",
+    "welcomeText": [
+        "Servidor PvE con una comunidad activa y administración comprometida.",
+        "Explora, construye, cría y disfruta de una experiencia equilibrada junto a otros supervivientes."
+    ],
+    "maps": [
+        { "name": "The Island", "image": "images/the-island.png" },
+        { "name": "Ragnarok", "image": "images/ragnarok.png" },
+        { "name": "Astraeos", "image": "images/astraeos.png" },
+        { "name": "Valguero", "image": "images/valguero.png" },
+        { "name": "The Center", "image": "images/the-center.png" },
+        { "name": "Genesis 1", "image": "images/genesis-1.png" },
+        { "name": "Aberration", "image": "images/aberration.png" }
+    ],
+    "features": [
+        "✔ 150 puntos por cada hora jugada",
+        "✔ Tienda de dinos",
+        "✔ Eventos especiales",
+        "✔ Administración muy activa",
+        "✔ Máximo 6 jugadores por tribu"
+    ],
+    "mods": [
+        { "name": "Cyber's Structures", "icon": "https://83374.media.forgecdn.net/avatars/thumbnails/1866/964/64/64/639171341039507508.png" },
+        { "name": "Super Spyglass Plus", "icon": "https://83374.media.forgecdn.net/avatars/thumbnails/904/667/64/64/638355047673327098.png" },
+        { "name": "Mega Ark Shop Mod", "icon": "https://83374.media.forgecdn.net/avatars/thumbnails/1727/148/64/64/639098918007454733.png" },
+        { "name": "Paleo Ark Evolution", "icon": "https://83374.media.forgecdn.net/avatars/thumbnails/1767/449/64/64/639123291743513536.png" },
+        { "name": "Shiny Dinos Ascended", "icon": "https://83374.media.forgecdn.net/avatars/thumbnails/895/831/64/64/638340791557646005.png" }
+    ]
+}

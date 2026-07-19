@@ -1,0 +1,494 @@
+{
+  "dinos": [
+    {
+      "name": "Basilisco",
+      "image": "images/exclusivos/basilisco.png",
+      "variants": [
+        {
+          "label": "Alpha",
+          "price": 120000
+        },
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Karkinos",
+      "image": "images/exclusivos/karkinos.png",
+      "variants": [
+        {
+          "label": "Alpha",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "Reaper",
+      "image": "images/exclusivos/reaper.png",
+      "variants": [
+        {
+          "label": "Alpha",
+          "price": 150000
+        },
+        {
+          "label": "Rayo",
+          "price": 80000
+        },
+        {
+          "label": "Corrupto",
+          "price": 80000
+        },
+        {
+          "label": "Ghost",
+          "price": 80000
+        },
+        {
+          "label": "Queen",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "Ossidón",
+      "image": "images/dinos/ossidon.png",
+      "variants": [
+        {
+          "label": "Alpha",
+          "price": 150000
+        }
+      ]
+    },
+    {
+      "name": "Mosasaurio",
+      "image": "images/dinos/mosasaurus.png",
+      "variants": [
+        {
+          "label": "Alpha",
+          "price": 150000
+        },
+        {
+          "label": "Astral",
+          "price": 150000
+        }
+      ]
+    },
+    {
+      "name": "Therizinosaurio",
+      "image": "images/dinos/therizinosaurus.png",
+      "variants": [
+        {
+          "label": "Alpha",
+          "price": 150000
+        }
+      ]
+    },
+    {
+      "name": "Raptor",
+      "image": "images/dinos/raptor.png",
+      "variants": [
+        {
+          "label": "Skeletal",
+          "price": 120000
+        },
+        {
+          "label": "Astral",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "Rex",
+      "image": "images/dinos/rex.png",
+      "variants": [
+        {
+          "label": "Skeletal",
+          "price": 150000
+        },
+        {
+          "label": "Ghost",
+          "price": 50000
+        },
+        {
+          "label": "Corrupto",
+          "price": 35000
+        },
+        {
+          "label": "Astral",
+          "price": 150000
+        }
+      ]
+    },
+    {
+      "name": "Wyvern",
+      "image": "images/dinos/wyvern.png",
+      "variants": [
+        {
+          "label": "Skeletal",
+          "price": 120000
+        },
+        {
+          "label": "Rayo",
+          "price": 50000
+        },
+        {
+          "label": "Corrupto",
+          "price": 35000
+        },
+        {
+          "label": "Crystal",
+          "price": 80000
+        },
+        {
+          "label": "Blood Crystal",
+          "price": 80000
+        },
+        {
+          "label": "Ember Crystal",
+          "price": 80000
+        },
+        {
+          "label": "Tropical Crystal",
+          "price": 80000
+        },
+        {
+          "label": "Zombie Fuego",
+          "price": 80000
+        },
+        {
+          "label": "Zombie Rayo",
+          "price": 80000
+        },
+        {
+          "label": "Zombie Veneno",
+          "price": 80000
+        }
+      ]
+    },
+    {
+      "name": "Carnotaurus",
+      "image": "images/dinos/carnotaurus.png",
+      "variants": [
+        {
+          "label": "Skeletal",
+          "price": 120000
+        },
+        {
+          "label": "Astral",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "Giganotosaurio",
+      "image": "images/dinos/giganotosaurus.png",
+      "variants": [
+        {
+          "label": "Skeletal",
+          "price": 120000
+        },
+        {
+          "label": "Rayo",
+          "price": 80000
+        },
+        {
+          "label": "Corrupto",
+          "price": 80000
+        }
+      ]
+    },
+    {
+      "name": "Estego",
+      "image": "images/dinos/stegosaurus.png",
+      "variants": [
+        {
+          "label": "Skeletal",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "Yi Ling",
+      "image": "images/dinos/yi-ling.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Gigantraptor",
+      "image": "images/dinos/gigantoraptor.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Pez Abisal",
+      "image": null,
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Búho de las Nieves",
+      "image": "images/exclusivos/buho-de-las-nieves.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Ceratosaurio",
+      "image": "images/exclusivos/ceratosaurio.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Veilwyn",
+      "image": "images/exclusivos/veilwyn.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Nutria",
+      "image": "images/exclusivos/nutria.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Espinosaurio",
+      "image": "images/dinos/spinosaur.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        },
+        {
+          "label": "Rayo",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Deinonychus",
+      "image": "images/exclusivos/deinonychus.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Mantis",
+      "image": "images/dinos/mantis.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Gato",
+      "image": "images/exclusivos/gato.png",
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Perro Abisal",
+      "image": null,
+      "variants": [
+        {
+          "label": "Ghost",
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "name": "Dragón de Roca",
+      "image": "images/exclusivos/dragon-de-roca.png",
+      "variants": [
+        {
+          "label": "Rayo",
+          "price": 50000
+        },
+        {
+          "label": "Astral",
+          "price": 150000
+        },
+        {
+          "label": "Corrupto",
+          "price": 35000
+        }
+      ]
+    },
+    {
+      "name": "Argentavis",
+      "image": "images/dinos/argentavis.png",
+      "variants": [
+        {
+          "label": "Astral",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "Deinosuchus",
+      "image": "images/dinos/deinosuchus.png",
+      "variants": [
+        {
+          "label": "Astral",
+          "price": 150000
+        }
+      ]
+    },
+    {
+      "name": "Lobo",
+      "image": "images/dinos/direwolf.png",
+      "variants": [
+        {
+          "label": "Astral",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "Mamut",
+      "image": "images/dinos/mammoth.png",
+      "variants": [
+        {
+          "label": "Astral",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "Megalodón",
+      "image": "images/dinos/megalodon.png",
+      "variants": [
+        {
+          "label": "Astral",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "Tusoteuthis",
+      "image": "images/dinos/tusoteuthis.png",
+      "variants": [
+        {
+          "label": "Astral",
+          "price": 120000
+        }
+      ]
+    },
+    {
+      "name": "GigaDesmodus",
+      "image": "images/exclusivos/gigadesmodus.png",
+      "variants": [
+        {
+          "label": "Único",
+          "price": 80000
+        }
+      ]
+    },
+    {
+      "name": "Neófito",
+      "image": "images/exclusivos/neofito.png",
+      "variants": [
+        {
+          "label": "Único",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "name": "Yeti",
+      "image": "images/exclusivos/yeti.jpg",
+      "variants": [
+        {
+          "label": "Único",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "name": "Amargasaurio",
+      "image": "images/exclusivos/amargasaurio.png",
+      "variants": [
+        {
+          "label": "Único",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "name": "Dinophitecus",
+      "image": "images/exclusivos/dinophitecus.png",
+      "variants": [
+        {
+          "label": "Único",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "name": "Sinomacrops",
+      "image": "images/exclusivos/sinomacrops.png",
+      "variants": [
+        {
+          "label": "Único",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "name": "Tropeoghnathus",
+      "image": "images/exclusivos/tropeoghnathus.png",
+      "variants": [
+        {
+          "label": "Único",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "name": "Golem de goma",
+      "image": null,
+      "variants": [
+        {
+          "label": "Único",
+          "price": 45000
+        }
+      ]
+    }
+  ]
+}

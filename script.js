@@ -3,7 +3,9 @@
     if (!el) return;
 
     try {
-        const res = await fetch('https://discord.com/api/v10/invites/K9KZwputpZ?with_counts=true');
+        const site = await fetch('data/site.json').then(r => r.json());
+        const inviteCode = site.discordInvite.split('/').pop();
+        const res = await fetch(`https://discord.com/api/v10/invites/${inviteCode}?with_counts=true`);
         const data = await res.json();
 
         if (data && typeof data.approximate_member_count === 'number') {

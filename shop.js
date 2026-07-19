@@ -1,9 +1,10 @@
 (function () {
+    function init(data) {
     const grid = document.getElementById('shopGrid');
     if (!grid) return;
 
     const PLACEHOLDER = 'images/dino-placeholder.svg';
-    const data = window.SHOP_DATA || [];
+    data = data || [];
 
     const searchInput = document.getElementById('shopSearch');
     const filterSelect = document.getElementById('shopFilter');
@@ -116,4 +117,7 @@
 
     buildFilterOptions();
     renderGrid();
+    }
+
+    window.ShopUI = { init: init };
 })();

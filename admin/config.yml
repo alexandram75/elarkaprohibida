@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: alexandram75/elarkaprohibida
+  repo: elarkaprohibida/elarkaprohibida
   branch: master
   base_url: https://api.netlify.com
   auth_endpoint: auth

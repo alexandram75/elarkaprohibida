@@ -8,6 +8,8 @@ backend:
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
+locale: "es"
+
 collections:
   - name: "dinos"
     label: "Tienda de Dinos"
